@@ -1,0 +1,4 @@
+<Directory "my-folder">
+Order Deny,Allow
+Deny from all
+</Directory>
