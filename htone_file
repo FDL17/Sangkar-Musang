@@ -1,0 +1,4 @@
+<Files "my-file.txt">
+Order Deny,Allow
+Deny from all
+</Files>
