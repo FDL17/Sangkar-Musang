@@ -1,11 +1,23 @@
+# SCRIPT CREATE BY KECOA_TERBANG 
+# Github : FDL17
+# How To Deploy It? Check My Gihtub FDL17 
+
 <?php
 class security {
+    # CONFIG START HERE 
+    $host = ""
+    $user = ""
+    $pass = ""
+    $db = ""
+    # CONFIG END HERE
+        
     private $url, $conn, $limit=5;
     private $post = array(), $get = array(), $lurl=array();
     
+
     
     private function connect() {
-        $this->conn = new mysqli("sql109.epizy.com", "epiz_34205428", "nm71NfTZps88VUO", "epiz_34205428_march");
+        $this->conn = new mysqli($this->host, $this->user, $this->pass, $this->db);
         
     }
     private function alert() {
