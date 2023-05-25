@@ -1,11 +1,16 @@
 # Sangkar-Musang
 Security Script Project
 
-#php security (in development | not recomended to use)
-
+# php security (in development | not recomended to use)
+V.BETA 1
 To Get Script :
 ```
 curl https://raw.githubusercontent.com/FDL17/Sangkar-Musang/main/security.php > script.php
+```
+
+V.BETA 2
+```
+curl https://raw.githubusercontent.com/FDL17/Sangkar-Musang/main/security2.php > script.php
 ```
 * beta test
 * tutorial for deployment not available for now
