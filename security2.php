@@ -46,7 +46,9 @@ function templating($x) {
     } elseif (isset($html)) {
         require("$x.html");
     } else {
-        echo "404";
+        $y = explode("?", $x)[0];
+        if ($y == "/") {
+            require("./index.php);
     }
 }
 
