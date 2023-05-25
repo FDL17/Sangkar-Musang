@@ -30,6 +30,6 @@ Get Via Curl :
 curl https://raw.githubusercontent.com/FDL17/Sangkar-Musang/main/htone_file > .htaccess
 ```
 ```
-curl https://github.com/FDL17/Sangkar-Musang/blob/main/htone_folder > .htaccess 
+curl https://raw.githubusercontent.com/FDL17/Sangkar-Musang/main/htone_folder > .htaccess 
 ```
 
